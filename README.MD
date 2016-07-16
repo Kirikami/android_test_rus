@@ -18,7 +18,7 @@ Installation:
 
     9. Create emulator with `android avd` with such parameters:
 
-        a. AVD Name: Android
+        a. AVD Name: Android (if you changed name you have to update name in 'cucumber.yml' file)
 
         b. Device: Nexus 5
 
