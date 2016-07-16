@@ -1,22 +1,30 @@
+Currently there already one report in repo which you can check. Go to step 19 for it.
+
 Installation:
 
     1. Checkout repository
 
-    2. Download and install node.js
+    2. Install rvm https://rvm.io/rvm/install `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
 
-    3. Download and install Android SDK with emulator https://developer.android.com/studio/install.html
+    3. Check that rvm using latest stable ruby `rvm list`, `ruby -v`
 
-    4. Set in your shell Android SDK folder path to $ANDROID_HOME, JAVA_HOME and add to path android tools (export ANDROID_HOME=$HOME/Library/Android/sdk/ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/ export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH export PATH=$HOME/Library/Android/sdk/tools:$PATH)
+    4. Go to project directory and run `bundle install` command.
 
-    5. Download and install `brew install node` if you’re using Mac
+    5. Download and install node.js
 
-    6. Download and install Appium `npm install -g appium`
+    6. Download and install Android SDK with emulator https://developer.android.com/studio/install.html
 
-    7. Compile project apk in Android sdk and copy it to $HOME/Library/Android/sdk/platform-tools
+    7. Set in your shell Android SDK folder path to $ANDROID_HOME, JAVA_HOME and add to path android tools (export ANDROID_HOME=$HOME/Library/Android/sdk/ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/ export PATH=$HOME/Library/Android/sdk/platform-tools:$PATH export PATH=$HOME/Library/Android/sdk/tools:$PATH)
 
-    8. Download and install for sdk “platform-tools” “tools” and packages for Android 6
+    8. Download and install `brew install node` if you’re using Mac
 
-    9. Create emulator with `android avd` with such parameters:
+    9. Download and install Appium `npm install -g appium`
+
+    11. Compile project apk in Android sdk and copy it to $HOME/Library/Android/sdk/platform-tools
+
+    12. Download and install for sdk “platform-tools” “tools” and packages for Android 6
+
+    13. Create emulator with `android avd` with such parameters:
 
         a. AVD Name: Android (if you changed name you have to update name in 'cucumber.yml' file)
 
@@ -34,33 +42,33 @@ Installation:
 
         h. Use host GPU: True
 
-    10. Run emulator from `cd $ANDROID_HOME` `tools/emulator -avd Android`
+    14. Run emulator from `cd $ANDROID_HOME` `tools/emulator -avd Android`
 
-    11. Install apk `platform-tools/adb install tools/calc.apk`
+    15. Install apk `platform-tools/adb install tools/calc.apk`
 
-    12. Run appium `appium`
+    16. Run appium `appium`
 
-    13. Go to test project.
+    17. Go to test project.
 
-    14. Run tests inside project `cucumber`
+    18. Run tests inside project `cucumber`
 
-    15. For opening report install allure http://wiki.qatools.ru/display/AL/Allure+Commandline
+    19. For opening report install allure http://wiki.qatools.ru/display/AL/Allure+Commandline
 
-    16. Run in project folder `allure generate gen/allure-results`
+    20. Run in project folder `allure generate gen/allure-results`
 
-    17. Run `allure report open`
+    21. Run `allure report open`
 
 Optional:
 
-    18. Or install docker and docker-compose
+    22. Or install docker and docker-compose
 
-    19. Run docker service
+    23. Run docker service
 
-    20. In project folder run `docker-compose build`, `docker-compose up -d` and copy <container_name>
+    24. In project folder run `docker-compose build`, `docker-compose up -d` and copy <container_name>
 
-    21. Run command `docker exec -it <container_name> generate_report
+    25. Run command `docker exec -it <container_name> generate_report
 
-    22. Open in browser localhost:5000
+    26. Open in browser localhost:5000
 
 Important: emulator could not work with docker at the same time.
 
