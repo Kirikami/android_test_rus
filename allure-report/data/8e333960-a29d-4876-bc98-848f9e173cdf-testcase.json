@@ -1,0 +1,83 @@
+{
+  "uid" : "8e333960-a29d-4876-bc98-848f9e173cdf",
+  "name" : "Divide negative number on positive number",
+  "title" : "Divide negative number on positive number",
+  "time" : {
+    "start" : 1468662010176,
+    "stop" : 1468662029710,
+    "duration" : 19534
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "\nexpected: -25\n     got: 25\n\n(compared using ==)\n",
+    "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/division.feature:28:in `Then I should see result equals to -25'"
+  },
+  "description" : null,
+  "severity" : null,
+  "status" : "FAILED",
+  "steps" : [ {
+    "name" : "I divide -50 on 2",
+    "title" : "I divide -50 on 2",
+    "time" : {
+      "start" : 1468662010176,
+      "stop" : 1468662029112,
+      "duration" : 18936
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to -25",
+    "title" : "I should see result equals to -25",
+    "time" : {
+      "start" : 1468662029112,
+      "stop" : 1468662029710,
+      "duration" : 598
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "b00ff9064ed8329e38bf1062c1dbf558e1d80764abd3fdf4abb03f802911cc26-attachment.png",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide negative number on positive number"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

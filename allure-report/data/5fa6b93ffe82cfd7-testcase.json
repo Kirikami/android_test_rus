@@ -1,0 +1,80 @@
+{
+  "uid" : "5fa6b93ffe82cfd7",
+  "name" : "I subtract zero",
+  "title" : "I subtract zero",
+  "time" : {
+    "start" : 1468662232556,
+    "stop" : 1468662249580,
+    "duration" : 17024
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "931782a40b8d8d3c",
+    "name" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality",
+    "title" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  },
+  "steps" : [ {
+    "name" : "I subtract 0 from 3",
+    "title" : "I subtract 0 from 3",
+    "time" : {
+      "start" : 1468662232557,
+      "stop" : 1468662249071,
+      "duration" : 16514
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 3",
+    "title" : "I should see result equals to 3",
+    "time" : {
+      "start" : 1468662249071,
+      "stop" : 1468662249580,
+      "duration" : 509
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "suite-name",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract zero"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  } ],
+  "parameters" : [ ]
+}

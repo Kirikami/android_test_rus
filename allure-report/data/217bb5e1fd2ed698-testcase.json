@@ -1,0 +1,89 @@
+{
+  "uid" : "217bb5e1fd2ed698",
+  "name" : "Divide negative number on positive number",
+  "title" : "Divide negative number on positive number",
+  "time" : {
+    "start" : 1468662010176,
+    "stop" : 1468662029710,
+    "duration" : 19534
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "\nexpected: -25\n     got: 25\n\n(compared using ==)\n",
+    "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/division.feature:28:in `Then I should see result equals to -25'"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5f390c585b627f29",
+    "name" : "Division In order to receive correct division results As a User I would like to check division functionality",
+    "title" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  },
+  "steps" : [ {
+    "name" : "I divide -50 on 2",
+    "title" : "I divide -50 on 2",
+    "time" : {
+      "start" : 1468662010176,
+      "stop" : 1468662029112,
+      "duration" : 18936
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to -25",
+    "title" : "I should see result equals to -25",
+    "time" : {
+      "start" : 1468662029112,
+      "stop" : 1468662029710,
+      "duration" : 598
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "b00ff9064ed8329e38bf1062c1dbf558e1d80764abd3fdf4abb03f802911cc26-attachment.png",
+      "type" : "image/png",
+      "size" : 71447,
+      "uid" : "e8dfed27266cfff4"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Divide negative number on positive number"
+  }, {
+    "name" : "suite-title",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "48a0a7d0407cb64c",
+  "name" : "Divide two negative number",
+  "title" : "Divide two negative number",
+  "time" : {
+    "start" : 1468661960554,
+    "stop" : 1468661977885,
+    "duration" : 17331
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b56ff8eddb9c265c",
+    "name" : "Division In order to receive correct division results As a User I would like to check division functionality",
+    "title" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  },
+  "steps" : [ {
+    "name" : "I divide -15 on -5",
+    "title" : "I divide -15 on -5",
+    "time" : {
+      "start" : 1468661960554,
+      "stop" : 1468661977300,
+      "duration" : 16746
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 3",
+    "title" : "I should see result equals to 3",
+    "time" : {
+      "start" : 1468661977301,
+      "stop" : 1468661977885,
+      "duration" : 584
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Divide two negative number"
+  }, {
+    "name" : "suite-title",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  } ],
+  "parameters" : [ ]
+}

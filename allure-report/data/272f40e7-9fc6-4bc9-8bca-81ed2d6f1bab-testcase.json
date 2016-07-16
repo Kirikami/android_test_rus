@@ -1,0 +1,83 @@
+{
+  "uid" : "272f40e7-9fc6-4bc9-8bca-81ed2d6f1bab",
+  "name" : "I subtract number from itself",
+  "title" : "I subtract number from itself",
+  "time" : {
+    "start" : 1468652508879,
+    "stop" : 1468652539209,
+    "duration" : 30330
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "An element could not be located on the page using the given search parameters.",
+    "stackTrace" : "./features/support/helpers/page_object.rb:14:in `block in text_field_value_set'\r\n./features/support/helpers/page_object.rb:13:in `text_field_value_set'\r\n./features/support/screens/main_screen.rb:11:in `subtract'\r\n./features/step_definitions/actions.rb:6:in `/^I subtract (-?\\d*\\.{0,1}\\d+) from (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:31:in `Given I subtract 245 from 245'"
+  },
+  "description" : null,
+  "severity" : null,
+  "status" : "FAILED",
+  "steps" : [ {
+    "name" : "I subtract 245 from 245",
+    "title" : "I subtract 245 from 245",
+    "time" : {
+      "start" : 1468652508879,
+      "stop" : 1468652539208,
+      "duration" : 30329
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 0",
+    "title" : "I should see result equals to 0",
+    "time" : {
+      "start" : 1468652539208,
+      "stop" : 1468652539208,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "SKIPPED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "533140ebb0ae7e06498d172734a1b5f55d4d8c2e576f1ba37ead4a8e9fc50485-attachment.png",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract number from itself"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

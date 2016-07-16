@@ -1,0 +1,89 @@
+{
+  "uid" : "7fa889636dc06e20",
+  "name" : "Divide integer number on not integer",
+  "title" : "Divide integer number on not integer",
+  "time" : {
+    "start" : 1468662085925,
+    "stop" : 1468662105166,
+    "duration" : 19241
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "\nexpected: 2\n     got: 0\n\n(compared using ==)\n",
+    "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/division.feature:40:in `Then I should see result equals to 2'"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "89bb3779163d974",
+    "name" : "Division In order to receive correct division results As a User I would like to check division functionality",
+    "title" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  },
+  "steps" : [ {
+    "name" : "I divide 5 on 2.5",
+    "title" : "I divide 5 on 2.5",
+    "time" : {
+      "start" : 1468662085926,
+      "stop" : 1468662104520,
+      "duration" : 18594
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 2",
+    "title" : "I should see result equals to 2",
+    "time" : {
+      "start" : 1468662104520,
+      "stop" : 1468662105165,
+      "duration" : 645
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "9294cfb4dcbeae4657d6a98d7508c74b986424b3dc9365c27b673b9e3871bf77-attachment.png",
+      "type" : "image/png",
+      "size" : 39850,
+      "uid" : "b2520648baf66925"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Divide integer number on not integer"
+  }, {
+    "name" : "suite-title",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  } ],
+  "parameters" : [ ]
+}

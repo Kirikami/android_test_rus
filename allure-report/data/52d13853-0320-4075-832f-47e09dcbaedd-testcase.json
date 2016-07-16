@@ -1,0 +1,83 @@
+{
+  "uid" : "52d13853-0320-4075-832f-47e09dcbaedd",
+  "name" : "I subtract from negative number",
+  "title" : "I subtract from negative number",
+  "time" : {
+    "start" : 1468652442583,
+    "stop" : 1468652472777,
+    "duration" : 30194
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "An element could not be located on the page using the given search parameters.",
+    "stackTrace" : "./features/support/helpers/page_object.rb:14:in `block in text_field_value_set'\r\n./features/support/helpers/page_object.rb:13:in `text_field_value_set'\r\n./features/support/screens/main_screen.rb:11:in `subtract'\r\n./features/step_definitions/actions.rb:6:in `/^I subtract (-?\\d*\\.{0,1}\\d+) from (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:23:in `Given I subtract 11 from -7'"
+  },
+  "description" : null,
+  "severity" : null,
+  "status" : "FAILED",
+  "steps" : [ {
+    "name" : "I subtract 11 from -7",
+    "title" : "I subtract 11 from -7",
+    "time" : {
+      "start" : 1468652442584,
+      "stop" : 1468652472776,
+      "duration" : 30192
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to -18",
+    "title" : "I should see result equals to -18",
+    "time" : {
+      "start" : 1468652472776,
+      "stop" : 1468652472777,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "SKIPPED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "c3c63ddd0aac959d9811c9134b5fb0436347d17b9abc31f0815435247ae7cb99-attachment.png",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract from negative number"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

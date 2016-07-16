@@ -1,0 +1,76 @@
+{
+  "uid" : "6813c13f-9da4-4846-a00e-ebcaef40b270",
+  "name" : "Divide two negative number",
+  "title" : "Divide two negative number",
+  "time" : {
+    "start" : 1468651614761,
+    "stop" : 1468651632831,
+    "duration" : 18070
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I divide -15 on -5",
+    "title" : "I divide -15 on -5",
+    "time" : {
+      "start" : 1468651614762,
+      "stop" : 1468651632295,
+      "duration" : 17533
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 3",
+    "title" : "I should see result equals to 3",
+    "time" : {
+      "start" : 1468651632295,
+      "stop" : 1468651632831,
+      "duration" : 536
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70225739768320"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide two negative number"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70225739768320"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "4e74db27-2f59-48ce-93ac-ac2c622e70d1",
+  "name" : "I subtract zero",
+  "title" : "I subtract zero",
+  "time" : {
+    "start" : 1468652378144,
+    "stop" : 1468652408421,
+    "duration" : 30277
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "An element could not be located on the page using the given search parameters.",
+    "stackTrace" : "./features/support/helpers/page_object.rb:14:in `block in text_field_value_set'\r\n./features/support/helpers/page_object.rb:13:in `text_field_value_set'\r\n./features/support/screens/main_screen.rb:11:in `subtract'\r\n./features/step_definitions/actions.rb:6:in `/^I subtract (-?\\d*\\.{0,1}\\d+) from (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:15:in `Given I subtract 0 from 3'"
+  },
+  "description" : null,
+  "severity" : null,
+  "status" : "FAILED",
+  "steps" : [ {
+    "name" : "I subtract 0 from 3",
+    "title" : "I subtract 0 from 3",
+    "time" : {
+      "start" : 1468652378145,
+      "stop" : 1468652408421,
+      "duration" : 30276
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 3",
+    "title" : "I should see result equals to 3",
+    "time" : {
+      "start" : 1468652408421,
+      "stop" : 1468652408421,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "SKIPPED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "d6fec17695674b539b0084b42732d9460d4a15ae2e669befabdfe6a1294069be-attachment.png",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract zero"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

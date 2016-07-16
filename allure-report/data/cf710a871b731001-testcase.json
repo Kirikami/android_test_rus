@@ -1,0 +1,80 @@
+{
+  "uid" : "cf710a871b731001",
+  "name" : "Divide zero",
+  "title" : "Divide zero",
+  "time" : {
+    "start" : 1468662151034,
+    "stop" : 1468662168432,
+    "duration" : 17398
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2f2ee0e9063c5cd3",
+    "name" : "Division In order to receive correct division results As a User I would like to check division functionality",
+    "title" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  },
+  "steps" : [ {
+    "name" : "I divide 0 on 499",
+    "title" : "I divide 0 on 499",
+    "time" : {
+      "start" : 1468662151034,
+      "stop" : 1468662167872,
+      "duration" : 16838
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 0",
+    "title" : "I should see result equals to 0",
+    "time" : {
+      "start" : 1468662167872,
+      "stop" : 1468662168432,
+      "duration" : 560
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  }, {
+    "name" : "story",
+    "value" : "Divide zero"
+  } ],
+  "parameters" : [ ]
+}

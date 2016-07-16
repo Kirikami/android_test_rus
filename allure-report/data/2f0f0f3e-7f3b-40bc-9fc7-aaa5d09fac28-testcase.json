@@ -1,0 +1,76 @@
+{
+  "uid" : "2f0f0f3e-7f3b-40bc-9fc7-aaa5d09fac28",
+  "name" : "I subtract number from itself",
+  "title" : "I subtract number from itself",
+  "time" : {
+    "start" : 1468662327710,
+    "stop" : 1468662345633,
+    "duration" : 17923
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I subtract 245 from 245",
+    "title" : "I subtract 245 from 245",
+    "time" : {
+      "start" : 1468662327711,
+      "stop" : 1468662345041,
+      "duration" : 17330
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 0",
+    "title" : "I should see result equals to 0",
+    "time" : {
+      "start" : 1468662345041,
+      "stop" : 1468662345633,
+      "duration" : 592
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract number from itself"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

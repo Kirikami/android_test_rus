@@ -1,0 +1,83 @@
+{
+  "uid" : "4dede878-5520-4595-a34e-47855e17cef4",
+  "name" : "Divide integer number on not integer",
+  "title" : "Divide integer number on not integer",
+  "time" : {
+    "start" : 1468651724553,
+    "stop" : 1468651742600,
+    "duration" : 18047
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "\nexpected: 2\n     got: 0\n\n(compared using ==)\n",
+    "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\n./features/division.feature:40:in `Then I should see result equals to 2'"
+  },
+  "description" : null,
+  "severity" : null,
+  "status" : "FAILED",
+  "steps" : [ {
+    "name" : "I divide 5 on 2.5",
+    "title" : "I divide 5 on 2.5",
+    "time" : {
+      "start" : 1468651724554,
+      "stop" : 1468651741883,
+      "duration" : 17329
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 2",
+    "title" : "I should see result equals to 2",
+    "time" : {
+      "start" : 1468651741883,
+      "stop" : 1468651742600,
+      "duration" : 717
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "87c7a493e85c3040f7c7165301fdd5b397c3275ce5c64fc43ee7738adca03994-attachment.png",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70225739768320"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide integer number on not integer"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70225739768320"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

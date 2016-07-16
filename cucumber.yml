@@ -1,0 +1,1 @@
+default: --no-source -r features --color --expand -f pretty -f AllureCucumber::Formatter --out allureoutput.log DEVICE_NAME=Android

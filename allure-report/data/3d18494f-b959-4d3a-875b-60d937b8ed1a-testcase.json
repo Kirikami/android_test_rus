@@ -1,0 +1,83 @@
+{
+  "uid" : "3d18494f-b959-4d3a-875b-60d937b8ed1a",
+  "name" : "I subtract two positive numbers",
+  "title" : "I subtract two positive numbers",
+  "time" : {
+    "start" : 1468652311991,
+    "stop" : 1468652342406,
+    "duration" : 30415
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "An element could not be located on the page using the given search parameters.",
+    "stackTrace" : "./features/support/helpers/page_object.rb:14:in `block in text_field_value_set'\r\n./features/support/helpers/page_object.rb:13:in `text_field_value_set'\r\n./features/support/screens/main_screen.rb:11:in `subtract'\r\n./features/step_definitions/actions.rb:6:in `/^I subtract (-?\\d*\\.{0,1}\\d+) from (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:7:in `Given I subtract 10 from 13'"
+  },
+  "description" : null,
+  "severity" : null,
+  "status" : "FAILED",
+  "steps" : [ {
+    "name" : "I subtract 10 from 13",
+    "title" : "I subtract 10 from 13",
+    "time" : {
+      "start" : 1468652311991,
+      "stop" : 1468652342405,
+      "duration" : 30414
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 3",
+    "title" : "I should see result equals to 3",
+    "time" : {
+      "start" : 1468652342405,
+      "stop" : 1468652342406,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "SKIPPED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "5bb96187c10541e5641027ae9eb3127e81de6ef74eb0fc64265900db152bf71a-attachment.png",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract two positive numbers"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

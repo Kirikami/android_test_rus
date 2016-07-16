@@ -1,0 +1,83 @@
+{
+  "uid" : "61223626-5b91-461a-9876-f067e123917f",
+  "name" : "I subtract bigger positive number",
+  "title" : "I subtract bigger positive number",
+  "time" : {
+    "start" : 1468652344479,
+    "stop" : 1468652374996,
+    "duration" : 30517
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "An element could not be located on the page using the given search parameters.",
+    "stackTrace" : "./features/support/helpers/page_object.rb:14:in `block in text_field_value_set'\r\n./features/support/helpers/page_object.rb:13:in `text_field_value_set'\r\n./features/support/screens/main_screen.rb:11:in `subtract'\r\n./features/step_definitions/actions.rb:6:in `/^I subtract (-?\\d*\\.{0,1}\\d+) from (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:11:in `Given I subtract 15 from 4'"
+  },
+  "description" : null,
+  "severity" : null,
+  "status" : "FAILED",
+  "steps" : [ {
+    "name" : "I subtract 15 from 4",
+    "title" : "I subtract 15 from 4",
+    "time" : {
+      "start" : 1468652344480,
+      "stop" : 1468652374996,
+      "duration" : 30516
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to -11",
+    "title" : "I should see result equals to -11",
+    "time" : {
+      "start" : 1468652374996,
+      "stop" : 1468652374996,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "SKIPPED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "5bb96187c10541e5641027ae9eb3127e81de6ef74eb0fc64265900db152bf71a-attachment.png",
+      "type" : null
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract bigger positive number"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "f79d01676d3d6c3c",
+  "name" : "Divide on zero",
+  "title" : "Divide on zero",
+  "time" : {
+    "start" : 1468662168435,
+    "stop" : 1468662185239,
+    "duration" : 16804
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "undefined method `error_meessage_shown?' for #<MainScreen:0x007fa151ba5fa0>",
+    "stackTrace" : "./features/step_definitions/actions.rb:14:in `/^I should see error message$/'\r\nfeatures/division.feature:73:in `Then I should see error message'"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5f390c585b627f29",
+    "name" : "Division In order to receive correct division results As a User I would like to check division functionality",
+    "title" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  },
+  "steps" : [ {
+    "name" : "I divide 5 on 0",
+    "title" : "I divide 5 on 0",
+    "time" : {
+      "start" : 1468662168435,
+      "stop" : 1468662185238,
+      "duration" : 16803
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see error message",
+    "title" : "I should see error message",
+    "time" : {
+      "start" : 1468662185238,
+      "stop" : 1468662185239,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "3f922be8952cd5eaef770bc1db5a5a7864535ad940514649e6ccb3b6e789ca9d-attachment.png",
+      "type" : "image/png",
+      "size" : 68762,
+      "uid" : "9332ae348d8bdd2b"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Divide on zero"
+  }, {
+    "name" : "suite-title",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-name",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  } ],
+  "parameters" : [ ]
+}

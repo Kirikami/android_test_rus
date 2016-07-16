@@ -1,0 +1,89 @@
+{
+  "uid" : "9e402228b7eb5965",
+  "name" : "I subtract negative number",
+  "title" : "I subtract negative number",
+  "time" : {
+    "start" : 1468662249581,
+    "stop" : 1468662267364,
+    "duration" : 17783
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 2
+  },
+  "failure" : {
+    "message" : "\nexpected: 7\n     got: 3\n\n(compared using ==)\n",
+    "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:20:in `Then I should see result equals to 7'"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ca95754037189919",
+    "name" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality",
+    "title" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  },
+  "steps" : [ {
+    "name" : "I subtract -2 from 5",
+    "title" : "I subtract -2 from 5",
+    "time" : {
+      "start" : 1468662249581,
+      "stop" : 1468662266789,
+      "duration" : 17208
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 7",
+    "title" : "I should see result equals to 7",
+    "time" : {
+      "start" : 1468662266789,
+      "stop" : 1468662267364,
+      "duration" : 575
+    },
+    "summary" : {
+      "attachments" : 1,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ {
+      "title" : "Screenshot",
+      "source" : "84acb6eb623832492a92772f007adaf2e9f95b3fa27f4f9227191c4ddf38b672-attachment.png",
+      "type" : "image/png",
+      "size" : 67614,
+      "uid" : "ae4fc7403e33eb27"
+    } ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "story",
+    "value" : "I subtract negative number"
+  }, {
+    "name" : "suite-name",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid" : "53c8c68143d86b70",
+  "name" : "I subtract number from itself",
+  "title" : "I subtract number from itself",
+  "time" : {
+    "start" : 1468662327710,
+    "stop" : 1468662345633,
+    "duration" : 17923
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ca95754037189919",
+    "name" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality",
+    "title" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  },
+  "steps" : [ {
+    "name" : "I subtract 245 from 245",
+    "title" : "I subtract 245 from 245",
+    "time" : {
+      "start" : 1468662327711,
+      "stop" : 1468662345041,
+      "duration" : 17330
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 0",
+    "title" : "I should see result equals to 0",
+    "time" : {
+      "start" : 1468662345041,
+      "stop" : 1468662345633,
+      "duration" : 592
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "I subtract number from itself"
+  }, {
+    "name" : "feature",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "suite-name",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "suite-title",
+    "value" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  } ],
+  "parameters" : [ ]
+}

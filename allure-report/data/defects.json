@@ -1,0 +1,137 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "bd12d312103e61f7",
+      "failure" : {
+        "message" : "\nexpected: -10\n     got: 10\n\n(compared using ==)\n",
+        "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/division.feature:24:in `Then I should see result equals to -10'"
+      },
+      "testCases" : [ {
+        "uid" : "4463f6bb804da596",
+        "name" : "Divide positive number on negative number",
+        "title" : "Divide positive number on negative number",
+        "time" : {
+          "start" : 1468661977885,
+          "stop" : 1468662001219,
+          "duration" : 23334
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "34aeba89b4ff337a",
+      "failure" : {
+        "message" : "\nexpected: -25\n     got: 25\n\n(compared using ==)\n",
+        "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/division.feature:28:in `Then I should see result equals to -25'"
+      },
+      "testCases" : [ {
+        "uid" : "3c2bdf7cf3e9b1a7",
+        "name" : "Divide negative number on positive number",
+        "title" : "Divide negative number on positive number",
+        "time" : {
+          "start" : 1468662010176,
+          "stop" : 1468662029710,
+          "duration" : 19534
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "f86c223f80aade00",
+      "failure" : {
+        "message" : "\nexpected: 0\n     got: 5\n\n(compared using ==)\n",
+        "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/division.feature:36:in `Then I should see result equals to 0.5'"
+      },
+      "testCases" : [ {
+        "uid" : "7c4b307d60f2c8b9",
+        "name" : "Divide not integer number on integer",
+        "title" : "Divide not integer number on integer",
+        "time" : {
+          "start" : 1468662059304,
+          "stop" : 1468662076747,
+          "duration" : 17443
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "a7014a9377fd4b7e",
+      "failure" : {
+        "message" : "\nexpected: 2\n     got: 0\n\n(compared using ==)\n",
+        "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/division.feature:40:in `Then I should see result equals to 2'"
+      },
+      "testCases" : [ {
+        "uid" : "abf64cc7e861a634",
+        "name" : "Divide integer number on not integer",
+        "title" : "Divide integer number on not integer",
+        "time" : {
+          "start" : 1468662085925,
+          "stop" : 1468662105166,
+          "duration" : 19241
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "407e7c66c7db5dff",
+      "failure" : {
+        "message" : "undefined method `error_meessage_shown?' for #<MainScreen:0x007fa151ba5fa0>",
+        "stackTrace" : "./features/step_definitions/actions.rb:14:in `/^I should see error message$/'\r\nfeatures/division.feature:73:in `Then I should see error message'"
+      },
+      "testCases" : [ {
+        "uid" : "1e2ebc5a8dfdc2f6",
+        "name" : "Divide on zero",
+        "title" : "Divide on zero",
+        "time" : {
+          "start" : 1468662168435,
+          "stop" : 1468662185239,
+          "duration" : 16804
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "388e4edcc3a341b1",
+      "failure" : {
+        "message" : "\nexpected: 7\n     got: 3\n\n(compared using ==)\n",
+        "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:20:in `Then I should see result equals to 7'"
+      },
+      "testCases" : [ {
+        "uid" : "9e402228b7eb5965",
+        "name" : "I subtract negative number",
+        "title" : "I subtract negative number",
+        "time" : {
+          "start" : 1468662249581,
+          "stop" : 1468662267364,
+          "duration" : 17783
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "fa68ade83817d752",
+      "failure" : {
+        "message" : "\nexpected: -18\n     got: -4\n\n(compared using ==)\n",
+        "stackTrace" : "./features/step_definitions/actions.rb:10:in `/^I should see result equals to (-?\\d*\\.{0,1}\\d+)$/'\r\nfeatures/subtraction.feature:24:in `Then I should see result equals to -18'"
+      },
+      "testCases" : [ {
+        "uid" : "a5e666b8c88fc678",
+        "name" : "I subtract from negative number",
+        "title" : "I subtract from negative number",
+        "time" : {
+          "start" : 1468662279640,
+          "stop" : 1468662299515,
+          "duration" : 19875
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ ]
+  } ]
+}

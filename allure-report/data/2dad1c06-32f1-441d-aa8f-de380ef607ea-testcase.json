@@ -1,0 +1,76 @@
+{
+  "uid" : "2dad1c06-32f1-441d-aa8f-de380ef607ea",
+  "name" : "Divide number on one",
+  "title" : "Divide number on one",
+  "time" : {
+    "start" : 1468652254365,
+    "stop" : 1468652272360,
+    "duration" : 17995
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I divide 6 on 1",
+    "title" : "I divide 6 on 1",
+    "time" : {
+      "start" : 1468652254366,
+      "stop" : 1468652271779,
+      "duration" : 17413
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 6",
+    "title" : "I should see result equals to 6",
+    "time" : {
+      "start" : 1468652271779,
+      "stop" : 1468652272360,
+      "duration" : 581
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide number on one"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,463 @@
+{
+  "features" : [ {
+    "title" : "Division In order to receive correct division results As a User I would like to check division functionality",
+    "statistic" : {
+      "total" : 13,
+      "passed" : 8,
+      "skipped" : 0,
+      "failed" : 5,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "51ddee91ab54e7d6d615f03a3a751910",
+      "title" : "Divide two positive numbers",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8442382e-7cd5-4884-a476-43bd2f9bbf11",
+        "name" : "Divide two positive numbers",
+        "title" : "Divide two positive numbers",
+        "time" : {
+          "start" : 1468661906391,
+          "stop" : 1468661925636,
+          "duration" : 19245
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "93e9743b9480d28fd4d234ca695cd712",
+      "title" : "Divide smaller number on bigger",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "059304ab-0214-4780-891f-c83281415fda",
+        "name" : "Divide smaller number on bigger",
+        "title" : "Divide smaller number on bigger",
+        "time" : {
+          "start" : 1468661925639,
+          "stop" : 1468661943167,
+          "duration" : 17528
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "f1f1f48dd7070f5e7ab34bc1723d69f3",
+      "title" : "Divide for result to be not an integer",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "cd8ff815-9028-4253-83b7-2491d3dd958e",
+        "name" : "Divide for result to be not an integer",
+        "title" : "Divide for result to be not an integer",
+        "time" : {
+          "start" : 1468661943168,
+          "stop" : 1468661960553,
+          "duration" : 17385
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "cf6a7d34b022c2effe9d292ee2ed9466",
+      "title" : "Divide two negative number",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a30628ba-3566-4389-95ba-bc2fc74c5c3a",
+        "name" : "Divide two negative number",
+        "title" : "Divide two negative number",
+        "time" : {
+          "start" : 1468661960554,
+          "stop" : 1468661977885,
+          "duration" : 17331
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "e309d82fc8838abbafc9a7b77d8afecf",
+      "title" : "Divide positive number on negative number",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "skipped" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "ef3418b7-485f-42a0-b8f4-9b9c9794d057",
+        "name" : "Divide positive number on negative number",
+        "title" : "Divide positive number on negative number",
+        "time" : {
+          "start" : 1468661977885,
+          "stop" : 1468662001219,
+          "duration" : 23334
+        },
+        "severity" : null,
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "5658cbe240579e3c10de318f8c2e5841",
+      "title" : "Divide negative number on positive number",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "skipped" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8e333960-a29d-4876-bc98-848f9e173cdf",
+        "name" : "Divide negative number on positive number",
+        "title" : "Divide negative number on positive number",
+        "time" : {
+          "start" : 1468662010176,
+          "stop" : 1468662029710,
+          "duration" : 19534
+        },
+        "severity" : null,
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "22dd230b470d27b2ed02a54eafca38eb",
+      "title" : "Divide not an integer numbers",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "0c5eec67-4ec8-464f-95e9-e38d7598b819",
+        "name" : "Divide not an integer numbers",
+        "title" : "Divide not an integer numbers",
+        "time" : {
+          "start" : 1468662039203,
+          "stop" : 1468662059304,
+          "duration" : 20101
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "ea3fbad38944abd2949af3ed02b8927e",
+      "title" : "Divide not integer number on integer",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "skipped" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "66094c09-5916-4ec8-b457-9da5d8795305",
+        "name" : "Divide not integer number on integer",
+        "title" : "Divide not integer number on integer",
+        "time" : {
+          "start" : 1468662059304,
+          "stop" : 1468662076747,
+          "duration" : 17443
+        },
+        "severity" : null,
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "9981dd31b4865019072e1acb655cd1ca",
+      "title" : "Divide integer number on not integer",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "skipped" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "540ab6f8-925a-4d45-80d9-f2aa8e742499",
+        "name" : "Divide integer number on not integer",
+        "title" : "Divide integer number on not integer",
+        "time" : {
+          "start" : 1468662085925,
+          "stop" : 1468662105166,
+          "duration" : 19241
+        },
+        "severity" : null,
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "3a1d5ade2f0be44f9ebb6a4bbd33cd7d",
+      "title" : "Divide number on itself",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "74b6d1e6-5c5d-4e46-880b-3cdda56cfbcb",
+        "name" : "Divide number on itself",
+        "title" : "Divide number on itself",
+        "time" : {
+          "start" : 1468662113399,
+          "stop" : 1468662133270,
+          "duration" : 19871
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "303fcbdc5de6721cb9e00cf2dcde598a",
+      "title" : "Divide number on one",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "72eb79cc-4b68-42bd-bf16-d4f906db64ab",
+        "name" : "Divide number on one",
+        "title" : "Divide number on one",
+        "time" : {
+          "start" : 1468662133270,
+          "stop" : 1468662151033,
+          "duration" : 17763
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "a70ddbd1bb6ee485e20ff1ba1b267e5b",
+      "title" : "Divide zero",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "5577d785-0bf9-436b-9d18-d193d65aa4da",
+        "name" : "Divide zero",
+        "title" : "Divide zero",
+        "time" : {
+          "start" : 1468662151034,
+          "stop" : 1468662168432,
+          "duration" : 17398
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "b195524b74d17e8208757295d2a6b4dd",
+      "title" : "Divide on zero",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "skipped" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "5bf1b0c1-0cf2-4af6-88e7-546123022d11",
+        "name" : "Divide on zero",
+        "title" : "Divide on zero",
+        "time" : {
+          "start" : 1468662168435,
+          "stop" : 1468662185239,
+          "duration" : 16804
+        },
+        "severity" : null,
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Subtraction In order to receive correct subtraction result As a User I would like to check subtraction functionality",
+    "statistic" : {
+      "total" : 7,
+      "passed" : 5,
+      "skipped" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "26a2231e9d90f44302002ee9c4887f4",
+      "title" : "I subtract two positive numbers",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "6906b605-0e2c-4a9a-9713-8c14f14cc035",
+        "name" : "I subtract two positive numbers",
+        "title" : "I subtract two positive numbers",
+        "time" : {
+          "start" : 1468662195448,
+          "stop" : 1468662214951,
+          "duration" : 19503
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "29a4281aade085f4f1b83df3554be2d0",
+      "title" : "I subtract bigger positive number",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "60a2429d-2459-421b-99ed-894719b46776",
+        "name" : "I subtract bigger positive number",
+        "title" : "I subtract bigger positive number",
+        "time" : {
+          "start" : 1468662214951,
+          "stop" : 1468662232556,
+          "duration" : 17605
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "8cb7134183c9b85fed210c24a7d7e1cb",
+      "title" : "I subtract zero",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b2918be7-84d1-4c6a-af55-b29383eed7ba",
+        "name" : "I subtract zero",
+        "title" : "I subtract zero",
+        "time" : {
+          "start" : 1468662232556,
+          "stop" : 1468662249580,
+          "duration" : 17024
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "51eee4a8ad52e23747c70bb2f16070f8",
+      "title" : "I subtract negative number",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "skipped" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c13c88e6-6dea-4173-b619-56bb15af5b3b",
+        "name" : "I subtract negative number",
+        "title" : "I subtract negative number",
+        "time" : {
+          "start" : 1468662249581,
+          "stop" : 1468662267364,
+          "duration" : 17783
+        },
+        "severity" : null,
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "9892faf0dc2dfa38b70da620006bf1c6",
+      "title" : "I subtract from negative number",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "skipped" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "2027e546-0927-40ae-a75e-488a211cf5ae",
+        "name" : "I subtract from negative number",
+        "title" : "I subtract from negative number",
+        "time" : {
+          "start" : 1468662279640,
+          "stop" : 1468662299515,
+          "duration" : 19875
+        },
+        "severity" : null,
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "616e628b2c351446e4021503b9608370",
+      "title" : "I subtract two negative numbers",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b7a93890-f3b3-4cff-8092-4cdd25e77dfb",
+        "name" : "I subtract two negative numbers",
+        "title" : "I subtract two negative numbers",
+        "time" : {
+          "start" : 1468662308574,
+          "stop" : 1468662327710,
+          "duration" : 19136
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "11ac6fc03a0f17b1d916285a57a49425",
+      "title" : "I subtract number from itself",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "skipped" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "2f0f0f3e-7f3b-40bc-9fc7-aaa5d09fac28",
+        "name" : "I subtract number from itself",
+        "title" : "I subtract number from itself",
+        "time" : {
+          "start" : 1468662327710,
+          "stop" : 1468662345633,
+          "duration" : 17923
+        },
+        "severity" : null,
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

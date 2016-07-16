@@ -1,0 +1,76 @@
+{
+  "uid" : "e7c67e66-63cf-420e-9d3b-b7ce1d9b9b92",
+  "name" : "Divide zero",
+  "title" : "Divide zero",
+  "time" : {
+    "start" : 1468651780838,
+    "stop" : 1468651798841,
+    "duration" : 18003
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I divide 0 on 499",
+    "title" : "I divide 0 on 499",
+    "time" : {
+      "start" : 1468651780839,
+      "stop" : 1468651798240,
+      "duration" : 17401
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 0",
+    "title" : "I should see result equals to 0",
+    "time" : {
+      "start" : 1468651798240,
+      "stop" : 1468651798841,
+      "duration" : 601
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70225739768320"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide zero"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70225739768320"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

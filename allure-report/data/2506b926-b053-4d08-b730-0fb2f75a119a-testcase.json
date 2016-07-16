@@ -1,0 +1,76 @@
+{
+  "uid" : "2506b926-b053-4d08-b730-0fb2f75a119a",
+  "name" : "Divide for result to be not an integer",
+  "title" : "Divide for result to be not an integer",
+  "time" : {
+    "start" : 1468652099973,
+    "stop" : 1468652118704,
+    "duration" : 18731
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I divide 15 on 4",
+    "title" : "I divide 15 on 4",
+    "time" : {
+      "start" : 1468652099973,
+      "stop" : 1468652117978,
+      "duration" : 18005
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 3.75",
+    "title" : "I should see result equals to 3.75",
+    "time" : {
+      "start" : 1468652117978,
+      "stop" : 1468652118704,
+      "duration" : 726
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide for result to be not an integer"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

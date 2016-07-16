@@ -1,0 +1,76 @@
+{
+  "uid" : "74b6d1e6-5c5d-4e46-880b-3cdda56cfbcb",
+  "name" : "Divide number on itself",
+  "title" : "Divide number on itself",
+  "time" : {
+    "start" : 1468662113399,
+    "stop" : 1468662133270,
+    "duration" : 19871
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I divide 13 on 13",
+    "title" : "I divide 13 on 13",
+    "time" : {
+      "start" : 1468662113399,
+      "stop" : 1468662132643,
+      "duration" : 19244
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 1",
+    "title" : "I should see result equals to 1",
+    "time" : {
+      "start" : 1468662132643,
+      "stop" : 1468662133270,
+      "duration" : 627
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide number on itself"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70165413052920"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

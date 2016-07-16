@@ -1,0 +1,76 @@
+{
+  "uid" : "221507dc-9793-421e-963d-3a36e4d7053a",
+  "name" : "Divide smaller number on bigger",
+  "title" : "Divide smaller number on bigger",
+  "time" : {
+    "start" : 1468652082082,
+    "stop" : 1468652099972,
+    "duration" : 17890
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I divide 2 on 10",
+    "title" : "I divide 2 on 10",
+    "time" : {
+      "start" : 1468652082082,
+      "stop" : 1468652099441,
+      "duration" : 17359
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 0.5",
+    "title" : "I should see result equals to 0.5",
+    "time" : {
+      "start" : 1468652099441,
+      "stop" : 1468652099972,
+      "duration" : 531
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide smaller number on bigger"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}

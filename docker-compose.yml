@@ -1,0 +1,7 @@
+allure-report:
+  build: images/nginx
+  ports:
+    - "5000:80"
+  volumes:
+    - ./gen/:/gen/
+    - ./allure-report/:/allure-report/

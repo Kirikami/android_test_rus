@@ -1,0 +1,76 @@
+{
+  "uid" : "1177a508-1a25-4e09-a45c-d3bfefee7897",
+  "name" : "Divide not an integer numbers",
+  "title" : "Divide not an integer numbers",
+  "time" : {
+    "start" : 1468652177930,
+    "stop" : 1468652196046,
+    "duration" : 18116
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ {
+    "name" : "I divide 2.5 on 0.5",
+    "title" : "I divide 2.5 on 0.5",
+    "time" : {
+      "start" : 1468652177930,
+      "stop" : 1468652195367,
+      "duration" : 17437
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "I should see result equals to 5",
+    "title" : "I should see result equals to 5",
+    "time" : {
+      "start" : 1468652195367,
+      "stop" : 1468652196046,
+      "duration" : 679
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  }, {
+    "name" : "feature",
+    "value" : "Division In order to receive correct division results As a User I would like to check division functionality"
+  }, {
+    "name" : "story",
+    "value" : "Divide not an integer numbers"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "70203019215360"
+  }, {
+    "name" : "host",
+    "value" : "Ruslans-MacBook-Pro.local"
+  } ],
+  "parameters" : [ ]
+}
