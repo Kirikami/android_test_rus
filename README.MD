@@ -62,7 +62,7 @@ Optional:
 
     22. Open in browser localhost:5000
 
-Important: emulator could will not work with docker at the same time.
+Important: emulator could not work with docker at the same time.
 
 	In feature folder there are cucumber features with tests, in root folder rspec template without implementation (could be look like this or could be improved using shared examples and shared context).
 
